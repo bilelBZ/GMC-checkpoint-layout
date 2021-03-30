@@ -1,0 +1,235 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align :center;
+}
+h1,h2,h3,h4{
+    color:#00ccb1 ;
+    font-family: 'Work Sans',Arial,sans-serif;
+}
+header{
+    width: 100%;
+    box-shadow: 0px 0px 10px gray;   
+    position: fixed;
+    top: 0;
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    background-color:white;  
+}
+main{
+    margin-top: 70px;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+li >a {
+    text-decoration: none;
+    color: gray;
+}
+li>a:hover{
+    color:#00ccb1 ;
+}
+
+section > h1{
+    color: #00ccb1;
+    font-size: 30px;
+}
+.card{
+    width:80%;
+    margin:30px auto;
+    display: flex;
+}
+@media (max-width:480px){
+    .card{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.card>p{
+    margin-right: 20px;
+}
+.product{
+    display: flex;
+    width:80%;
+    margin: auto;
+    
+}
+@media(max-width:480px){
+    .product{
+        flex-wrap: wrap;
+    }
+    #doctors{
+        margin:20px 0  ;
+    }
+}
+.product>div:hover{
+    opacity: 0.9;
+}
+#patients{
+    background-color:#00ccb1;
+    border-radius: 7px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+#doctors{
+    background-color: #3d83df;
+    border-radius: 7px;
+    height: 300px;
+    padding: 20px;
+    margin: 0 20px;
+}
+#clinics{
+    background-color: #1b2734;
+    border-radius: 7px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.countries>div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+select{
+    border: none;
+    background-color: inherit;
+}
+.sponsors{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+@media (max-width:480px){
+    .sponsors{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.presentation{
+    background-color: #e5faf8; 
+}
+.presentation>div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+@media (max-width:480px){
+    .presentation>div{
+        flex-direction: column;
+    }
+    .logo{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+        margin: auto;
+    }
+    .container div{
+        width: 80%;
+        margin: auto;
+    }
+    .card-2{
+        width: 100%;
+        margin: auto;
+    }
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    width: 60%;
+}
+.container div{
+    width: 100%;
+   margin: 5px;
+}
+.card-2{
+    background-color: white;
+    height: 250px;   
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.galerie{
+    width: 80%;
+    margin: auto;
+}
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+}
+.countries> div{
+    width: 30%;
+    margin: 10px;
+    border:1px solid rgba(0,0,0,.03);
+    color: #747474;
+    
+}
+.countries div img{
+    width: 100%;
+    height: auto;
+}
+.text{  
+   display: flex;
+    justify-content: space-between;
+   align-items: baseline;
+   margin: 10px;
+}
+button{
+   
+    background-color: #1038ebfb;
+    width: 25%;
+    height: 15%;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: blue;
+}
+.join h1{
+    color:#747474;
+}
+.join button{
+    width: 20%;
+    padding: 5px 20px;
+    border: none;
+    border: 1px;
+}
+@media(max-width:768px){
+    .countries>div{
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width:480px){
+    .countries{
+        flex-direction: column;
+    }
+    .countries>div{
+        width: 80%;
+        margin: auto;
+    }
+}
+footer{
+    color: #747474;
+}
+hr{
+    margin-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
+}
